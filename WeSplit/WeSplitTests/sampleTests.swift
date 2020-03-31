@@ -1,15 +1,15 @@
 //
-//  sampleTests.swift
-//  sampleTests
+//  WeSplitTests.swift
+//  WeSplitTests
 //
 //  Created by Naveen Singisetty on 09/03/20.
 //  Copyright © 2020 MouriTech Pvt. Ltd. All rights reserved.
 //
 
 import XCTest
-@testable import sample
+@testable import WeSplit
 
-class sampleTests: XCTestCase {
+class WeSplitTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

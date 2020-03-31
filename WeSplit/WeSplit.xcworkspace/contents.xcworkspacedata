@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:sample.xcodeproj">
+      location = "group:/Users/naveens/Documents/Repo/WeSplit/WeSplit/WeSplit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

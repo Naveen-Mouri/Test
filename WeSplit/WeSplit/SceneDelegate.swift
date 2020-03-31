@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  sample
+//  WeSplit
 //
 //  Created by Naveen Singisetty on 09/03/20.
 //  Copyright © 2020 MouriTech Pvt. Ltd. All rights reserved.

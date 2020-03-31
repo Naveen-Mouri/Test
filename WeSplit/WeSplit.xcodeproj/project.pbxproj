@@ -3,13 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075FC9431018CEC9EAC35B0F /* Pods_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E5783593D0C510445C5210 /* Pods_sample.framework */; };
-		284AA396B9474AA47303EA08 /* Pods_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282B499324049DCA0DA208D5 /* Pods_sampleTests.framework */; };
-		3E9BFDE0DA93C0C9B9BFD1F2 /* Pods_sample_sampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADC0FA090885D5A7CA61358 /* Pods_sample_sampleUITests.framework */; };
+		0C72373A2393F018B6201038 /* Pods_WeSplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2CA40969E37CFA3B1867B /* Pods_WeSplitTests.framework */; };
 		85FBC5EC2416550B00417BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBC5EB2416550B00417BAB /* AppDelegate.swift */; };
 		85FBC5EE2416550B00417BAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBC5ED2416550B00417BAB /* SceneDelegate.swift */; };
 		85FBC5F02416550B00417BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBC5EF2416550B00417BAB /* ContentView.swift */; };
@@ -18,6 +16,8 @@
 		85FBC5F82416550C00417BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FBC5F62416550C00417BAB /* LaunchScreen.storyboard */; };
 		85FBC6032416550C00417BAB /* sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBC6022416550C00417BAB /* sampleTests.swift */; };
 		85FBC60E2416550C00417BAB /* sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBC60D2416550C00417BAB /* sampleUITests.swift */; };
+		9F9CD16B536E24C844223A0C /* Pods_WeSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC8D9FAE33ED8B1A78C1562 /* Pods_WeSplit.framework */; };
+		EEBEA299607FD44E0D728C2F /* Pods_WeSplit_WeSplitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AD20FF8916280FD2EB1B2E /* Pods_WeSplit_WeSplitUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053FCE43BD4FF4442FA169FD /* Pods-WeSplit-WeSplitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeSplit-WeSplitUITests.release.xcconfig"; path = "Target Support Files/Pods-WeSplit-WeSplitUITests/Pods-WeSplit-WeSplitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0763824AC0BA1240EE3325DE /* Pods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.debug.xcconfig"; path = "Target Support Files/Pods-sample/Pods-sample.debug.xcconfig"; sourceTree = "<group>"; };
 		11130A5480A76D4D062DBD0F /* Pods-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.release.xcconfig"; path = "Target Support Files/Pods-sample/Pods-sample.release.xcconfig"; sourceTree = "<group>"; };
-		282B499324049DCA0DA208D5 /* Pods_sampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566994CF7E393CDE8F81F2F3 /* Pods-WeSplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeSplit.release.xcconfig"; path = "Target Support Files/Pods-WeSplit/Pods-WeSplit.release.xcconfig"; sourceTree = "<group>"; };
 		5CCB459E4B59DD3732F82A42 /* Pods-sample-sampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-sampleUITests.release.xcconfig"; path = "Target Support Files/Pods-sample-sampleUITests/Pods-sample-sampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CF2CA40969E37CFA3B1867B /* Pods_WeSplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeSplitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CED3B71B529F27BE9EB1A96 /* Pods-WeSplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeSplitTests.release.xcconfig"; path = "Target Support Files/Pods-WeSplitTests/Pods-WeSplitTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DC8D9FAE33ED8B1A78C1562 /* Pods_WeSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeSplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B2904CC971AF314A1CE434 /* Pods-WeSplit-WeSplitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeSplit-WeSplitUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeSplit-WeSplitUITests/Pods-WeSplit-WeSplitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7993E33EDD69609FA0AEE374 /* Pods-sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleTests.release.xcconfig"; path = "Target Support Files/Pods-sampleTests/Pods-sampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		85FBC5E82416550B00417BAB /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FBC5E82416550B00417BAB /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FBC5EB2416550B00417BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85FBC5ED2416550B00417BAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		85FBC5EF2416550B00417BAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,16 +56,17 @@
 		85FBC5F42416550C00417BAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85FBC5F72416550C00417BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85FBC5F92416550C00417BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85FBC5FE2416550C00417BAB /* sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FBC5FE2416550C00417BAB /* WeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FBC6022416550C00417BAB /* sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTests.swift; sourceTree = "<group>"; };
 		85FBC6042416550C00417BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85FBC6092416550C00417BAB /* sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FBC6092416550C00417BAB /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FBC60D2416550C00417BAB /* sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleUITests.swift; sourceTree = "<group>"; };
 		85FBC60F2416550C00417BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8E5783593D0C510445C5210 /* Pods_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BADC0FA090885D5A7CA61358 /* Pods_sample_sampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_sampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C281720B1A5751367B2061 /* Pods-WeSplitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeSplitTests.debug.xcconfig"; path = "Target Support Files/Pods-WeSplitTests/Pods-WeSplitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCF71996589DBEBE9B0734E4 /* Pods-WeSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeSplit.debug.xcconfig"; path = "Target Support Files/Pods-WeSplit/Pods-WeSplit.debug.xcconfig"; sourceTree = "<group>"; };
 		E4328D6171696B5119E9B4BB /* Pods-sample-sampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-sampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-sample-sampleUITests/Pods-sample-sampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED111DA2A99E6ADAADF25262 /* Pods-sampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleTests.debug.xcconfig"; path = "Target Support Files/Pods-sampleTests/Pods-sampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2AD20FF8916280FD2EB1B2E /* Pods_WeSplit_WeSplitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeSplit_WeSplitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075FC9431018CEC9EAC35B0F /* Pods_sample.framework in Frameworks */,
+				9F9CD16B536E24C844223A0C /* Pods_WeSplit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284AA396B9474AA47303EA08 /* Pods_sampleTests.framework in Frameworks */,
+				0C72373A2393F018B6201038 /* Pods_WeSplitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E9BFDE0DA93C0C9B9BFD1F2 /* Pods_sample_sampleUITests.framework in Frameworks */,
+				EEBEA299607FD44E0D728C2F /* Pods_WeSplit_WeSplitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +100,9 @@
 		85FBC5DF2416550B00417BAB = {
 			isa = PBXGroup;
 			children = (
-				85FBC5EA2416550B00417BAB /* sample */,
-				85FBC6012416550C00417BAB /* sampleTests */,
-				85FBC60C2416550C00417BAB /* sampleUITests */,
+				85FBC5EA2416550B00417BAB /* WeSplit */,
+				85FBC6012416550C00417BAB /* WeSplitTests */,
+				85FBC60C2416550C00417BAB /* WeSplitUITests */,
 				85FBC5E92416550B00417BAB /* Products */,
 				D514ADA4DAD55ECEE255F2BC /* Pods */,
 				F21903926E019F2E65E552C9 /* Frameworks */,
@@ -106,14 +112,14 @@
 		85FBC5E92416550B00417BAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85FBC5E82416550B00417BAB /* sample.app */,
-				85FBC5FE2416550C00417BAB /* sampleTests.xctest */,
-				85FBC6092416550C00417BAB /* sampleUITests.xctest */,
+				85FBC5E82416550B00417BAB /* WeSplit.app */,
+				85FBC5FE2416550C00417BAB /* WeSplitTests.xctest */,
+				85FBC6092416550C00417BAB /* WeSplitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85FBC5EA2416550B00417BAB /* sample */ = {
+		85FBC5EA2416550B00417BAB /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
 				85FBC5EB2416550B00417BAB /* AppDelegate.swift */,
@@ -124,7 +130,7 @@
 				85FBC5F92416550C00417BAB /* Info.plist */,
 				85FBC5F32416550C00417BAB /* Preview Content */,
 			);
-			path = sample;
+			path = WeSplit;
 			sourceTree = "<group>";
 		};
 		85FBC5F32416550C00417BAB /* Preview Content */ = {
@@ -135,22 +141,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		85FBC6012416550C00417BAB /* sampleTests */ = {
+		85FBC6012416550C00417BAB /* WeSplitTests */ = {
 			isa = PBXGroup;
 			children = (
 				85FBC6022416550C00417BAB /* sampleTests.swift */,
 				85FBC6042416550C00417BAB /* Info.plist */,
 			);
-			path = sampleTests;
+			path = WeSplitTests;
 			sourceTree = "<group>";
 		};
-		85FBC60C2416550C00417BAB /* sampleUITests */ = {
+		85FBC60C2416550C00417BAB /* WeSplitUITests */ = {
 			isa = PBXGroup;
 			children = (
 				85FBC60D2416550C00417BAB /* sampleUITests.swift */,
 				85FBC60F2416550C00417BAB /* Info.plist */,
 			);
-			path = sampleUITests;
+			path = WeSplitUITests;
 			sourceTree = "<group>";
 		};
 		D514ADA4DAD55ECEE255F2BC /* Pods */ = {
@@ -162,17 +168,22 @@
 				5CCB459E4B59DD3732F82A42 /* Pods-sample-sampleUITests.release.xcconfig */,
 				ED111DA2A99E6ADAADF25262 /* Pods-sampleTests.debug.xcconfig */,
 				7993E33EDD69609FA0AEE374 /* Pods-sampleTests.release.xcconfig */,
+				DCF71996589DBEBE9B0734E4 /* Pods-WeSplit.debug.xcconfig */,
+				566994CF7E393CDE8F81F2F3 /* Pods-WeSplit.release.xcconfig */,
+				77B2904CC971AF314A1CE434 /* Pods-WeSplit-WeSplitUITests.debug.xcconfig */,
+				053FCE43BD4FF4442FA169FD /* Pods-WeSplit-WeSplitUITests.release.xcconfig */,
+				D6C281720B1A5751367B2061 /* Pods-WeSplitTests.debug.xcconfig */,
+				6CED3B71B529F27BE9EB1A96 /* Pods-WeSplitTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		F21903926E019F2E65E552C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B8E5783593D0C510445C5210 /* Pods_sample.framework */,
-				BADC0FA090885D5A7CA61358 /* Pods_sample_sampleUITests.framework */,
-				282B499324049DCA0DA208D5 /* Pods_sampleTests.framework */,
+				6DC8D9FAE33ED8B1A78C1562 /* Pods_WeSplit.framework */,
+				F2AD20FF8916280FD2EB1B2E /* Pods_WeSplit_WeSplitUITests.framework */,
+				5CF2CA40969E37CFA3B1867B /* Pods_WeSplitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85FBC5E72416550B00417BAB /* sample */ = {
+		85FBC5E72416550B00417BAB /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85FBC6122416550C00417BAB /* Build configuration list for PBXNativeTarget "sample" */;
+			buildConfigurationList = 85FBC6122416550C00417BAB /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
 				4637B2E505F0DA8C0AE57CCB /* [CP] Check Pods Manifest.lock */,
 				85FBC5E42416550B00417BAB /* Sources */,
@@ -194,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = sample;
+			name = WeSplit;
 			productName = sample;
-			productReference = 85FBC5E82416550B00417BAB /* sample.app */;
+			productReference = 85FBC5E82416550B00417BAB /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		85FBC5FD2416550C00417BAB /* sampleTests */ = {
+		85FBC5FD2416550C00417BAB /* WeSplitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85FBC6152416550C00417BAB /* Build configuration list for PBXNativeTarget "sampleTests" */;
+			buildConfigurationList = 85FBC6152416550C00417BAB /* Build configuration list for PBXNativeTarget "WeSplitTests" */;
 			buildPhases = (
 				0B44026C69FDB8EC8C0ABE3D /* [CP] Check Pods Manifest.lock */,
 				85FBC5FA2416550C00417BAB /* Sources */,
@@ -213,14 +224,14 @@
 			dependencies = (
 				85FBC6002416550C00417BAB /* PBXTargetDependency */,
 			);
-			name = sampleTests;
+			name = WeSplitTests;
 			productName = sampleTests;
-			productReference = 85FBC5FE2416550C00417BAB /* sampleTests.xctest */;
+			productReference = 85FBC5FE2416550C00417BAB /* WeSplitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		85FBC6082416550C00417BAB /* sampleUITests */ = {
+		85FBC6082416550C00417BAB /* WeSplitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85FBC6182416550C00417BAB /* Build configuration list for PBXNativeTarget "sampleUITests" */;
+			buildConfigurationList = 85FBC6182416550C00417BAB /* Build configuration list for PBXNativeTarget "WeSplitUITests" */;
 			buildPhases = (
 				6E943C0FA198681F48938AB7 /* [CP] Check Pods Manifest.lock */,
 				85FBC6052416550C00417BAB /* Sources */,
@@ -233,9 +244,9 @@
 			dependencies = (
 				85FBC60B2416550C00417BAB /* PBXTargetDependency */,
 			);
-			name = sampleUITests;
+			name = WeSplitUITests;
 			productName = sampleUITests;
-			productReference = 85FBC6092416550C00417BAB /* sampleUITests.xctest */;
+			productReference = 85FBC6092416550C00417BAB /* WeSplitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -261,7 +272,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 85FBC5E32416550B00417BAB /* Build configuration list for PBXProject "sample" */;
+			buildConfigurationList = 85FBC5E32416550B00417BAB /* Build configuration list for PBXProject "WeSplit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -274,9 +285,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85FBC5E72416550B00417BAB /* sample */,
-				85FBC5FD2416550C00417BAB /* sampleTests */,
-				85FBC6082416550C00417BAB /* sampleUITests */,
+				85FBC5E72416550B00417BAB /* WeSplit */,
+				85FBC5FD2416550C00417BAB /* WeSplitTests */,
+				85FBC6082416550C00417BAB /* WeSplitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +335,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sampleTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WeSplitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -346,7 +357,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WeSplit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -359,15 +370,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample/Pods-sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeSplit/Pods-WeSplit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample/Pods-sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeSplit/Pods-WeSplit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sample/Pods-sample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeSplit/Pods-WeSplit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6E943C0FA198681F48938AB7 /* [CP] Check Pods Manifest.lock */ = {
@@ -385,7 +396,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sample-sampleUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WeSplit-WeSplitUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -398,15 +409,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample-sampleUITests/Pods-sample-sampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeSplit-WeSplitUITests/Pods-WeSplit-WeSplitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample-sampleUITests/Pods-sample-sampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WeSplit-WeSplitUITests/Pods-WeSplit-WeSplitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sample-sampleUITests/Pods-sample-sampleUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeSplit-WeSplitUITests/Pods-WeSplit-WeSplitUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -443,12 +454,12 @@
 /* Begin PBXTargetDependency section */
 		85FBC6002416550C00417BAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85FBC5E72416550B00417BAB /* sample */;
+			target = 85FBC5E72416550B00417BAB /* WeSplit */;
 			targetProxy = 85FBC5FF2416550C00417BAB /* PBXContainerItemProxy */;
 		};
 		85FBC60B2416550C00417BAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85FBC5E72416550B00417BAB /* sample */;
+			target = 85FBC5E72416550B00417BAB /* WeSplit */;
 			targetProxy = 85FBC60A2416550C00417BAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -581,18 +592,18 @@
 		};
 		85FBC6132416550C00417BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0763824AC0BA1240EE3325DE /* Pods-sample.debug.xcconfig */;
+			baseConfigurationReference = DCF71996589DBEBE9B0734E4 /* Pods-WeSplit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"sample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = sample/Info.plist;
+				INFOPLIST_FILE = WeSplit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mouritech.sample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouritech.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -601,18 +612,18 @@
 		};
 		85FBC6142416550C00417BAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11130A5480A76D4D062DBD0F /* Pods-sample.release.xcconfig */;
+			baseConfigurationReference = 566994CF7E393CDE8F81F2F3 /* Pods-WeSplit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"sample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = sample/Info.plist;
+				INFOPLIST_FILE = WeSplit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mouritech.sample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mouritech.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -621,7 +632,7 @@
 		};
 		85FBC6162416550C00417BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED111DA2A99E6ADAADF25262 /* Pods-sampleTests.debug.xcconfig */;
+			baseConfigurationReference = D6C281720B1A5751367B2061 /* Pods-WeSplitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -637,13 +648,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample.app/sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/WeSplit";
 			};
 			name = Debug;
 		};
 		85FBC6172416550C00417BAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7993E33EDD69609FA0AEE374 /* Pods-sampleTests.release.xcconfig */;
+			baseConfigurationReference = 6CED3B71B529F27BE9EB1A96 /* Pods-WeSplitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -659,13 +670,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample.app/sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/WeSplit";
 			};
 			name = Release;
 		};
 		85FBC6192416550C00417BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4328D6171696B5119E9B4BB /* Pods-sample-sampleUITests.debug.xcconfig */;
+			baseConfigurationReference = 77B2904CC971AF314A1CE434 /* Pods-WeSplit-WeSplitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -685,7 +696,7 @@
 		};
 		85FBC61A2416550C00417BAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CCB459E4B59DD3732F82A42 /* Pods-sample-sampleUITests.release.xcconfig */;
+			baseConfigurationReference = 053FCE43BD4FF4442FA169FD /* Pods-WeSplit-WeSplitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -706,7 +717,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85FBC5E32416550B00417BAB /* Build configuration list for PBXProject "sample" */ = {
+		85FBC5E32416550B00417BAB /* Build configuration list for PBXProject "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85FBC6102416550C00417BAB /* Debug */,
@@ -715,7 +726,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85FBC6122416550C00417BAB /* Build configuration list for PBXNativeTarget "sample" */ = {
+		85FBC6122416550C00417BAB /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85FBC6132416550C00417BAB /* Debug */,
@@ -724,7 +735,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85FBC6152416550C00417BAB /* Build configuration list for PBXNativeTarget "sampleTests" */ = {
+		85FBC6152416550C00417BAB /* Build configuration list for PBXNativeTarget "WeSplitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85FBC6162416550C00417BAB /* Debug */,
@@ -733,7 +744,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85FBC6182416550C00417BAB /* Build configuration list for PBXNativeTarget "sampleUITests" */ = {
+		85FBC6182416550C00417BAB /* Build configuration list for PBXNativeTarget "WeSplitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85FBC6192416550C00417BAB /* Debug */,
